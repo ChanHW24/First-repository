@@ -5,31 +5,32 @@
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="style.css">
+        <script defer src="app.js"></script>
         <meta charset="UTF-8">
         <meta name="viewport">
         <title>ColdPlay</title>
     </head>
 
     <body>
+        <header id="header">
+            <h1>ColdPlay</h1>
+        </header>
         <nav class = "navbar">
-            <div class = "navdiv">
-                <div class = "logo"><a href = "#"> ColdPlay </a></div>
-                <ul>
-                    <li><a href = "#"> Home </a></li>
-                    <li><a href = "#"> About Us </a></li>
-                    <li><a href = "#"> Music </a></li>
-                    <li><a href = "#"> Tour </a></li>
-                    <button><a href = "#" class = "user"><i class = "ri-user-fill"></i> Sign In </a></button>
-                    <button><a href = "#"> Sign Up </a></button>
-                </ul>
-            </div>
+            <ul>
+                <li><a href = "#header"> Home </a></li>
+                <li><a href = "#aboutus"> About Us </a></li>
+                <li><a href = "#music"> Music </a></li>
+                <li><a href = "#tour"> Tour </a></li>
+                <button><a href = "#" class = "user"><i class = "ri-user-fill"></i> Sign In </a></button>
+                <button><a href = "#"> Sign Up </a></button>
+            </ul>
+            <button><a href = "#" class = "user"><i class = "ri-user-fill"></i> Sign In </a></button>
+            <button><a href = "#"> Sign Up </a></button>
         </nav>
+
         <!--Main Image Page-->
-        <div class = "logopic">
-            <img src = "Coldplay_logo.jpeg" alt = "HTML Image">
-        </div>
         <div class = "grouppic">
-            <img src = "Coldplay_GrroupImage.jpg" alt = "HTML Image">
+
         </div>
 
         <!--Spacing-->
@@ -41,9 +42,11 @@
         <br>
 
         <!--About Us Page-->
-        <div class = "aboutus">
-            <H1><a> About Us </a></H1>
+        <div id="aboutus" class = "aboutus">
+            <H1>About Us</H1>
+
             <br>
+
             <div class = "grppic">
                 <img src = "coldplayGrpPic.jpeg" alt = "HTML Image">
             </div>
@@ -98,7 +101,6 @@
                     <p>Will Champion, the versatile drummer of Coldplay, is a rhythmic powerhouse behind the band's soaring melodies. With his dynamic percussion and multi-instrumental talents, Champion has played a crucial role in defining Coldplay's distinctive sound. Contributing to hits like "Fix You" and "Adventure of a Lifetime," he stands as an essential pillar of the band's success. Beyond his musical prowess, Will Champion's dedication and collaborative spirit have solidified his place as an indispensable member of Coldplay, contributing to their global acclaim and enduring popularity.</p>
                 </div>
             </div>
-            <div img class="test"> </div>
         </div>
         
         <!--Spacing-->
@@ -110,12 +112,12 @@
         <br>
 
         <!--Music Page-->
-        <div class="music">
+        <div id="music" class="music">
             <h1>Music</h1>
         </div>
 
         <!--Tour Page-->
-        <div class="tour">
+        <div id="tour" class="tour">
             <h1>Tour</h1>
         </div>
         <!--Footer-->
@@ -131,10 +133,10 @@
                 </div>
                 <div class = "footernav">
                     <ul>
-                        <li><a href = ""> Home </a></li>
-                        <li><a href = ""> About Us </a></li>
-                        <li><a href = ""> Music </a></li>
-                        <li><a href = ""> Tour </a></li>
+                        <li><a href = "#header"> Home </a></li>
+                        <li><a href = "#aboutus"> About Us </a></li>
+                        <li><a href = "#music"> Music </a></li>
+                        <li><a href = "#tour"> Tour </a></li>
                     </ul>
                 </div>
             </div>

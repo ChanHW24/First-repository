@@ -5,8 +5,19 @@
     text-decoration: none;
     list-style: none;
 }
+/* Smooth scrolling effect */
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: plum;
+
+}
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 67px;
+    color: white;
+    text-align: center;
 }
 h2{
     color: white;
@@ -16,58 +27,51 @@ h3{
 
 }
 .navbar{
-    background: plum;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding-right: 15px;
-    padding-left: 15px;
 }
-.navdiv{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.navbar ul{
+    text-align: center;
 }
-.logo a{
-    font-size: 67px;
-    color: white;
-}
-.navdiv li {
+.navbar li{
     display: inline-block;
 }
-.navdiv li a{
+.navbar li a{
     color: white;
     font-size: 28px;
-    margin-right: 25px;
-    text-align: bottom;
+    width: 150px;
+    margin: 50px;
 }
-.navdiv button{
+.navbar li a:hover{
+    color: hotpink;
+    transition: 0.5s;
+}
+.navbar button{
     background-color: plum;
-    margin-left: 10px;
-    border-radius: 10px;
-    padding: 5px;
-    width: 100px;
+    margin-left: 15px;
+    border: none;
+    
 }
-.navdiv button a{
+.navbar button a{
     color: white;
     font-weight: bolder;
     font-size: 15px;
 }
-.logopic{
-    background-color: plum;
-    text-align: center;
-}
 .grouppic{
-    background-color: plum;
-    text-align: center;
+    background-image: url('Coldplay_GrroupImage.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
 }
 .aboutus{
     text-align: center;
 }
-.aboutus a{
+.aboutus h1{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: plum;
     color: white;
-    text-decoration: underline;
-    font-size: 69px;
+    font-size: 44em;
 }
 .grppic{
     background-size: cover;
@@ -105,21 +109,13 @@ h3{
     color: beige;
 }
 .right p{
-
-}
-.test{
-    background-image: url('./coldplayGrpPic.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 170vh;
-    height: 150vh;
+    color: rgb(50, 50, 50);
 }
 .music h1{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: plum;
     color: white;
-    text-decoration: underline;
-    font-size: 69px;
+    font-size: 680px;
     text-align: center;
 }
 .tour h1{
