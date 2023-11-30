@@ -28,7 +28,7 @@ h3{
 }
 h4{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: beige;
+    color: hotpink;
     font-size: bold;
     text-align: center;
     font-size: 11vw;
@@ -280,6 +280,34 @@ h4{
     width: 100%;
     height: auto;
 }
+#country{
+    text-align: center;
+}
+#country h5{
+    color: white;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+#country p{
+    color: beige;
+    font-size: 25px;
+    font-family: monospace;
+}
+.tour1 img{
+    width: auto;
+    height: 100px;
+}
+.tour2 img{
+    width: auto;
+    height: 100px;
+}
+.tour3 img{
+    width: auto;
+    height: 100px;
+}
+
+
 /* Footer */
 footer{
     background-color: plum;
