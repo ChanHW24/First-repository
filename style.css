@@ -26,6 +26,14 @@ h2{
 h3{
 
 }
+h4{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: beige;
+    font-size: bold;
+    text-align: center;
+    font-size: 11vw;
+}
+
 .bigpic img{
     width: 100%;
     height: auto;
@@ -42,7 +50,7 @@ h3{
 .navbar li a{
     color: white;
     font-size: 28px;
-    width: 150px;
+    width: 100px;
     margin: 20px;
 }
 .navbar li a:hover{
@@ -149,6 +157,48 @@ h3{
     text-align: center;
     font-size: 27vw;
 }
+.carousel{
+    padding: 2rem;
+}
+.sliderwrapper{
+    position: relative;
+    max-width:;
+    margin: 0 auto;
+}
+.slider{
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0,0%,0%,0.25);
+    border-radius: 0.5rem;
+}
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+.slidernav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.slidernav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+.slidernav a:hover{
+    opacity: 1;
+}
 .grppic{
     background-size: cover;
 }
@@ -196,7 +246,27 @@ h3{
     color: white;
     font-size: 680px;
     text-align: center;
-    font-size: 38vw;
+    font-size: 39vw;
+}
+.album{
+    display: flex;
+}
+.song{
+    display: flex;
+}
+@media (max-width: 1111px){
+    .album{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .song{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
 }
 .tour h1{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -204,7 +274,11 @@ h3{
     color: white;
     font-size: 900px;
     text-align: center;
-    font-size: 50vw;
+    font-size: 51.5vw;
+}
+.worldmap img{
+    width: 100%;
+    height: auto;
 }
 /* Footer */
 footer{
