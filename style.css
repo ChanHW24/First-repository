@@ -34,6 +34,9 @@ h4{
     text-align: center;
     font-size: 11vw;
 }
+#header h1{
+    font-size: 67px;
+}
 
 .bigpic img{
     width: 100%;
