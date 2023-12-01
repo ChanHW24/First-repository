@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    overflow-x: hidden;
 }
 /* Smooth scrolling effect */
 html{
@@ -11,7 +12,7 @@ html{
 }
 body{
     background-color: plum;
-
+    overflow-y: auto !important; 
 }
 h1{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
