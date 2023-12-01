@@ -283,6 +283,7 @@ h4{
 }
 #country{
     text-align: center;
+    overflow: hidden;
 }
 #country h5{
     color: white;
